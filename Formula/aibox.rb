@@ -1,7 +1,7 @@
 class Aibox < Formula
   desc "Run AI coding agents in isolated Docker containers"
   homepage "https://github.com/blitzdotdev/aibox"
-  url "https://github.com/blitzdotdev/aibox/archive/refs/tags/v0.4.0.tar.gz"
+  url "https://github.com/blitzdotdev/aibox/archive/refs/tags/v0.4.1.tar.gz"
   sha256 ""
   license "MIT"
 
