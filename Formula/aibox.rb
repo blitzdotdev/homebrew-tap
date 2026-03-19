@@ -9,6 +9,7 @@ class Aibox < Formula
   depends_on "docker-compose" => :recommended
 
   def install
+    inreplace "bin/aibox", "__CLI_VERSION__", version.to_s
     bin.install "bin/aibox"
   end
 
